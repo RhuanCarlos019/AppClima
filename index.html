@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo de Clima</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnH2RzZ2MWP6HrpaxTdZr6o+jF4yQp0v9B5/CpBCN0W5qeZIB7Sk5MEcVrbfpUQyy4ObOHjWw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h1>Clima Tempo</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Digite uma cidade, estado ou país">
+            <button id="search-button"><i class="fas fa-search"></i> Buscar</button>
+        </div>
+        <div id="weather-info">
+            <!-- Informações do clima serão exibidas aqui -->
+        </div>
+    </div>
+    <div id="error-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
